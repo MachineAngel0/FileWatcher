@@ -36,6 +36,7 @@ inline std::unordered_map<PrintColor, std::string> color_look_up{
 
 };
 
+
 class Logger
 {
     public:

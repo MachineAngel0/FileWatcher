@@ -10,15 +10,18 @@
 
 int main()
 {
+    //testing the logger works,
     Logger::print_colors();
     Logger::print_tester();
 
     //std::filesystem::path FilePath = R"(C:\Users\Adams Humbert\Documents\Clion\FileWatcher)";
 
     FileWatcher* file_watcher = new FileWatcher(R"(C:\Users\Adams Humbert\Documents\Clion\FileWatcher)");
+    // file path to test the assertion works
     //FileWatcher* file_watcher = new FileWatcher(R"(C:\Users\Adams Humbert\Documents\Clion\FileWatcherasds)");
 
     // fake application/game loop
+    //TODO: add some sort of input for escaping
     while (true)
     {
         file_watcher->update();

@@ -34,16 +34,21 @@ void Logger::print_colors()
 }
 
 /** Doc - Main Print Function
- * @note trying to use '\n' instead of std::endl will cause printing bugs
+ * @note trying to use '\n' instead of std::endl will cause printing bugs, if using std::cout
+ * TODO: might want to look into using platform specific color text
  * @param text string to pass in
  * @param color ANSI Color, See Enum for Colors Available
  */
 void Logger::print(const std::string_view& text, const PrintColor& color)
 {
+    // printf should be fine, since were only printing and not doing any sort of file i/o with it
     auto ANSI = color_look_up[color];
-    std::cout << "\033[" << ANSI << "m" << text << "\033[0m" << std::endl;
+    printf("\033[%sm %s \033[0m \n", ANSI.c_str(), text.data());
 
     /* equivalent code */
+
+    //std::cout << "\033[" << ANSI << "m" << text << "\033[0m" << std::endl;
+
     //std::cout << "\033[31m" << "Red" << "\033[0m" << std::endl;
 }
 

@@ -19,7 +19,7 @@ FileWatcher::FileWatcher(const std::filesystem::path& FileDirectory)
 
     // if we get here that means a valid path
     Logger::print("Valid Path", Green);
-    std::cout << file_path << std::endl;
+    std::cout << file_path << '\n';
 
 
     /* Initialization */
@@ -35,13 +35,12 @@ FileWatcher::FileWatcher(const std::filesystem::path& FileDirectory)
 
 void FileWatcher::update()
 {
-
     // check if we have a modified file
     std::filesystem::file_time_type CurrentTimeStamp = std::filesystem::last_write_time(file_path);
     if (prev_time_stamp != CurrentTimeStamp)
     {
         // log
-        std::cout << "File Changed Previous timestamp: " << prev_time_stamp << "//// New Time Stamp" <<
+        std::cout << "File Changed Previous timestamp: " << prev_time_stamp << ", New Time Stamp: " <<
                 CurrentTimeStamp << '\n';
 
         // update our time stamp
@@ -53,8 +52,6 @@ void FileWatcher::update()
         file_set = find_changed_file();
     }
 }
-
-
 
 
 std::vector<std::filesystem::path> FileWatcher::get_files_in_directory(const std::filesystem::path& dir_path)
@@ -73,12 +70,16 @@ std::vector<std::filesystem::path> FileWatcher::get_files_in_directory(const std
 std::unordered_set<std::filesystem::path> FileWatcher::get_files_in_directory_hash()
 {
     std::unordered_set<std::filesystem::path> files;
+#ifndef DEBUG_FILEWATCHER
     Logger::print("New Set Of Files", Magenta);
+#endif
     for (const auto& entry: std::filesystem::recursive_directory_iterator(file_path))
     {
         if (std::filesystem::is_regular_file(entry))
         {
-            std::cout << entry.path() << std::endl;
+#ifndef DEBUG_FILEWATCHER
+            std::cout << entry.path() << '\n';
+#endif
             files.insert(entry.path());
         }
     }
@@ -90,15 +91,18 @@ std::unordered_set<std::filesystem::path> FileWatcher::find_changed_file()
     // get our changed set of files
     std::unordered_set<std::filesystem::path> updated_files = get_files_in_directory_hash();
 
+#ifndef DEBUG_FILEWATCHER
     Logger::print("Prev Set of Files", Magenta);
     for (auto& Files_In_Set: file_set)
     {
         std::cout << Files_In_Set << '\n';
     }
+#endif
+
 
     // with the size see if the files have been added, removed, or modified
     size_t prev_file_size = file_set.size();
-    size_t new_file_size_count =  updated_files.size();
+    size_t new_file_size_count = updated_files.size();
 
     if (prev_file_size != new_file_size_count) // check if we have added or removed any files
     {
@@ -108,33 +112,30 @@ std::unordered_set<std::filesystem::path> FileWatcher::find_changed_file()
         if (prev_file_size < new_file_size_count) // file(s) got added
         {
             Logger::print("File Was Added:", Magenta);
-            std::cout << "Old File Size:" <<file_set.size() << ", New File Size:"<< new_file_size_count << '\n';
+            std::cout << "Old File Size:" << file_set.size() << ", New File Size:" << new_file_size_count << '\n';
 
             //find the added file by checking if the old hash has the new files
             for (const auto& file: updated_files)
             {
                 if (!file_set.contains(file))
                 {
-                    std::cout << "New File:" << file << std::endl;
+                    std::cout << "New File:" << file << '\n';
                 }
             }
         }
         else if (prev_file_size > new_file_size_count) // file(s) got removed
         {
             Logger::print("File Was Removed:", Magenta);
-            std::cout << "Old File Size:" <<file_set.size() << ", New File Size:"<< new_file_size_count << '\n';
+            std::cout << "Old File Size:" << file_set.size() << ", New File Size:" << new_file_size_count << '\n';
 
             //find the removed file by checking if the new hash does not contain the old files
             for (const auto& file: file_set)
             {
                 if (!updated_files.contains(file))
                 {
-                    std::cout << "Deleted File:" << file << std::endl;
+                    std::cout << "Deleted File:" << file << '\n';
                 }
             }
-
-
-
         }
     }
     else
@@ -147,6 +148,3 @@ std::unordered_set<std::filesystem::path> FileWatcher::find_changed_file()
     // update our tile_set with the updated files
     return updated_files;
 }
-
-
-

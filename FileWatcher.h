@@ -8,9 +8,19 @@
 #include <filesystem>
 #include <unordered_set>
 
+
+/**
+ * @note having DEBUG_FILEWATCHER on might not everything out, at least not for me within Clion, prefer the command line/terminal instead
+ */
+#define DEBUG_FILEWATCHER = false
+
+
 //TODO:
+// Check which file was modified, possible update the hash set to a map
 // Ability to be able to ignore certain directory paths, such as the .git file, or the CMake File, could do either a hash set or some sort of file I/O (Json or CSV)
 // Take Updated Files and parse its .ext, and then have an event or something similar listen so that they can load/unload, or do any operation they want on the file
+
+
 class FileWatcher {
 
 public:
