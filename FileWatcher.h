@@ -6,10 +6,9 @@
 #define FILEWATCHER_H
 
 #include <filesystem>
-#include <iostream>
 #include <unordered_set>
 
-
+//TODO: Add a recursive check for subdirectories
 class FileWatcher {
 
 public:
@@ -20,21 +19,22 @@ public:
 
     std::vector<std::filesystem::path> get_files_in_directory(const std::filesystem::path& dir_path);
 
-    std::unordered_set<std::filesystem::path> get_files_in_directory_hash(const std::filesystem::path& dir_path);
+    std::unordered_set<std::filesystem::path> get_files_in_directory_hash();
 
-    std::vector<std::filesystem::path> find_changed_file(const std::filesystem::path& dir_path,
-                                                         std::unordered_set<std::filesystem::path>& Previous_File_Set);
+   std::unordered_set<std::filesystem::path> find_changed_file();
 
 private:
 
-    std::filesystem::file_time_type PrevTimeStamp;
+    // file path we want to be operating on
+    std::filesystem::path file_path;
+    // time stamp for checking against file modification, add, or remove
+    std::filesystem::file_time_type prev_time_stamp;
+    // a list of all our files, to check against any file changes
     std::unordered_set<std::filesystem::path> file_set;
-
-    std::filesystem::path FilePath;
 };
 
 
-//TODO:Testing Folder and testing functions
+//TODO: Testing Folder and testing functions
 
 
 
