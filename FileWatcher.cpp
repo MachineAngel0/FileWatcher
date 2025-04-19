@@ -60,7 +60,7 @@ void FileWatcher::update()
 std::vector<std::filesystem::path> FileWatcher::get_files_in_directory(const std::filesystem::path& dir_path)
 {
     std::vector<std::filesystem::path> files;
-    for (const auto& entry: std::filesystem::directory_iterator(dir_path))
+    for (const auto& entry: std::filesystem::recursive_directory_iterator(dir_path))
     {
         if (std::filesystem::is_regular_file(entry))
         {
@@ -74,7 +74,7 @@ std::unordered_set<std::filesystem::path> FileWatcher::get_files_in_directory_ha
 {
     std::unordered_set<std::filesystem::path> files;
     Logger::print("New Set Of Files", Magenta);
-    for (const auto& entry: std::filesystem::directory_iterator(file_path))
+    for (const auto& entry: std::filesystem::recursive_directory_iterator(file_path))
     {
         if (std::filesystem::is_regular_file(entry))
         {

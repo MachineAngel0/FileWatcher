@@ -8,7 +8,9 @@
 #include <filesystem>
 #include <unordered_set>
 
-//TODO: Add a recursive check for subdirectories
+//TODO:
+// Ability to be able to ignore certain directory paths, such as the .git file, or the CMake File, could do either a hash set or some sort of file I/O (Json or CSV)
+// Take Updated Files and parse its .ext, and then have an event or something similar listen so that they can load/unload, or do any operation they want on the file
 class FileWatcher {
 
 public:
