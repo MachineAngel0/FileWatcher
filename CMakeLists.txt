@@ -3,6 +3,9 @@ project(FileWatcher)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(FileWatcher main.cpp)
+add_executable(FileWatcher main.cpp
+        FileWatcher.cpp
+        FileWatcher.h
+        Logger.cpp
+        Logger.h)
 
-#target_link_libraries(project_name C:/Users/username/libabcd.dll)

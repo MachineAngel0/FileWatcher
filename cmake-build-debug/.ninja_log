@@ -1,85 +1,73 @@
 # ninja log v6
-316	335	7666719493551305	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-4	316	7666719490433314	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-316	335	7666719493551305	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-316	335	7666719493551305	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-319	2596	7666719261854333	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2596	2768	7666719284632077	FileWatcher.exe	5d9b359ba8f779c2
-4	280	7666719525255740	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-288	309	7666719528099658	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-288	309	7666719528099658	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-288	309	7666719528099658	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-310	2638	7666719528315501	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2638	2791	7666719551596721	FileWatcher.exe	5d9b359ba8f779c2
-4	283	7666721941981782	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-283	301	7666721944766271	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-283	301	7666721944766271	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-283	301	7666721944766271	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-302	2600	7666721944950733	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2600	2757	7666721967939987	FileWatcher.exe	5d9b359ba8f779c2
-4	283	7666722834601388	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-283	302	7666722837391180	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-283	302	7666722837391180	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-283	302	7666722837391180	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-302	2538	7666722837575437	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2538	2714	7666722859937165	FileWatcher.exe	5d9b359ba8f779c2
-4	283	7666723259446574	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-284	303	7666723262238049	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-284	303	7666723262238049	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-284	303	7666723262238049	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-304	2606	7666723262447342	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2606	2779	7666723285468855	FileWatcher.exe	5d9b359ba8f779c2
-4	286	7666724054702551	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-286	305	7666724057523486	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-286	305	7666724057523486	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-286	305	7666724057523486	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-305	2477	7666724057711238	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2477	2672	7666724079429298	FileWatcher.exe	5d9b359ba8f779c2
-21	521	7666727398659484	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-522	545	7666727403665580	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-522	545	7666727403665580	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-522	545	7666727403665580	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-4	285	7666727578067722	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-285	304	7666727580882071	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-285	304	7666727580882071	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-285	304	7666727580882071	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-4	304	7666727653067173	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-305	325	7666727656078761	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-305	325	7666727656078761	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-305	325	7666727656078761	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-326	2667	7666727656285830	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2667	2865	7666727679695586	FileWatcher.exe	5d9b359ba8f779c2
-6	299	7666731964996730	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-299	317	7666731967932773	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-299	317	7666731967932773	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-299	317	7666731967932773	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-318	2655	7666731968117983	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2655	2848	7666731991492052	FileWatcher.exe	5d9b359ba8f779c2
-6	288	7666733516727272	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-288	308	7666733519559739	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-288	308	7666733519559739	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-288	308	7666733519559739	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-308	2579	7666733519760581	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2579	2723	7666733542468229	FileWatcher.exe	5d9b359ba8f779c2
-4	283	7666733706817239	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-284	302	7666733709614767	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-284	302	7666733709614767	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-284	302	7666733709614767	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-4	280	7666733736071763	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-281	299	7666733738826687	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-281	299	7666733738826687	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-281	299	7666733738826687	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-300	2634	7666733739020705	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2634	2779	7666733762367410	FileWatcher.exe	5d9b359ba8f779c2
-4	286	7666733947085689	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-287	306	7666733949917648	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-287	306	7666733949917648	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-287	306	7666733949917648	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-307	2622	7666733950114103	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-2622	2772	7666733973269489	FileWatcher.exe	5d9b359ba8f779c2
-4	114	7666734835655158	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
-114	135	7666734836759077	CMakeFiles/FileWatcher.dir/CXX.dd	7e456756ec8d6de9
-114	135	7666734836759077	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	7e456756ec8d6de9
-114	135	7666734836759077	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	7e456756ec8d6de9
-136	1796	7666734836973274	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
-1796	1935	7666734853578935	FileWatcher.exe	5d9b359ba8f779c2
+119	140	7667297999082447	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+2	118	7667297997915737	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
+119	140	7667297999082447	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+119	140	7667297999082447	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+140	1543	7667297999294709	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
+119	140	7667297999082447	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+1940	2078	7667298017295246	FileWatcher.exe	4434ffbe123746df
+143	1940	7667297999324736	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj	5555bef0d111a3d6
+6	119	7667297997951130	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.ddi	3d7aa5c72bea77ec
+9	102	7667297997982068	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.ddi	59417d414e6c5de1
+119	140	7667297999082447	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+146	859	7667297999349779	CMakeFiles/FileWatcher.dir/Logger.cpp.obj	a58c55b773ebcea4
+8	105	7667299322544730	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.ddi	59417d414e6c5de1
+6	114	7667299322524719	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.ddi	3d7aa5c72bea77ec
+3	115	7667299322484410	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
+115	135	7667299323616668	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+115	135	7667299323616668	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+115	135	7667299323616668	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+115	135	7667299323616668	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+115	135	7667299323616668	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+136	1477	7667299323817219	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
+138	1861	7667299323852252	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj	5555bef0d111a3d6
+2	93	7667299549582875	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.ddi	59417d414e6c5de1
+93	112	7667299550497236	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+93	112	7667299550497236	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+93	112	7667299550497236	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+93	112	7667299550497236	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+93	112	7667299550497236	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+113	768	7667299550695762	CMakeFiles/FileWatcher.dir/Logger.cpp.obj	a58c55b773ebcea4
+768	945	7667299557238541	FileWatcher.exe	4434ffbe123746df
+2	111	7667299691508165	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
+112	131	7667299692614191	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+112	131	7667299692614191	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+112	131	7667299692614191	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+112	131	7667299692614191	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+112	131	7667299692614191	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+131	1410	7667299692804201	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
+1410	1528	7667299705592137	FileWatcher.exe	4434ffbe123746df
+5	122	7667300499918282	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.ddi	3d7aa5c72bea77ec
+2	123	7667300499877872	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	a61db1cfee61dc62
+124	144	7667300501102751	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+124	144	7667300501102751	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+124	144	7667300501102751	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+124	144	7667300501102751	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+124	144	7667300501102751	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+144	1480	7667300501312855	CMakeFiles/FileWatcher.dir/main.cpp.obj	4d8d608bf1a46232
+147	1885	7667300501332888	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj	5555bef0d111a3d6
+1886	2054	7667300518718606	FileWatcher.exe	4434ffbe123746df
+2	112	7667300644820475	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.ddi	3d7aa5c72bea77ec
+113	132	7667300645933026	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+113	132	7667300645933026	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+113	132	7667300645933026	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+113	132	7667300645933026	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+113	132	7667300645933026	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+132	1851	7667300646121382	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj	5555bef0d111a3d6
+1851	1988	7667300663312918	FileWatcher.exe	4434ffbe123746df
+2	116	7667300713814982	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.ddi	3d7aa5c72bea77ec
+116	136	7667300714954866	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+116	136	7667300714954866	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+116	136	7667300714954866	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+116	136	7667300714954866	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+116	136	7667300714954866	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+136	1885	7667300715156099	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj	5555bef0d111a3d6
+1886	2023	7667300732653981	FileWatcher.exe	4434ffbe123746df
+2	110	7667300813604966	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.ddi	3d7aa5c72bea77ec
+111	130	7667300814688239	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+111	130	7667300814688239	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-debug/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+111	130	7667300814688239	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+111	130	7667300814688239	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+111	130	7667300814688239	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+130	1926	7667300814882843	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj	5555bef0d111a3d6
+1926	2069	7667300832843945	FileWatcher.exe	4434ffbe123746df
