@@ -78,7 +78,7 @@ std::unordered_set<std::filesystem::path> FileWatcher::get_files_in_directory_ha
     {
         if (std::filesystem::is_regular_file(entry))
         {
-            std::cout << entry.path() << '\n';
+            std::cout << entry.path() << std::endl;
             files.insert(entry.path());
         }
     }
