@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\FileWatcher.dir\\Logger.cpp.obj",
+            "outputs": [
+                "CMakeFiles\\FileWatcher.dir\\Logger.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

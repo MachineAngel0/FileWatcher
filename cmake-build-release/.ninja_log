@@ -1,0 +1,13 @@
+# ninja log v6
+10	100	7667343708012516	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.ddi	ba28a10ff1f5554d
+7	118	7667343707982330	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.ddi	54f40c64a85ffee1
+4	119	7667343707946936	CMakeFiles/FileWatcher.dir/main.cpp.obj.ddi	812bbb484da60e8e
+119	142	7667343709290941	CMakeFiles/FileWatcher.dir/CXX.dd	bbc2450c7611b266
+119	142	7667343709290941	C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-release/CMakeFiles/FileWatcher.dir/CXXModules.json	bbc2450c7611b266
+119	142	7667343709290941	CMakeFiles/FileWatcher.dir/main.cpp.obj.modmap	bbc2450c7611b266
+119	142	7667343709290941	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj.modmap	bbc2450c7611b266
+119	142	7667343709290941	CMakeFiles/FileWatcher.dir/Logger.cpp.obj.modmap	bbc2450c7611b266
+148	991	7667343709391571	CMakeFiles/FileWatcher.dir/Logger.cpp.obj	1b9d56669891e399
+143	1629	7667343709331095	CMakeFiles/FileWatcher.dir/main.cpp.obj	82211a12ff7d84b0
+146	2552	7667343709361115	CMakeFiles/FileWatcher.dir/FileWatcher.cpp.obj	c9a7cea9bb3bb508
+2552	2656	7667343733425870	FileWatcher.exe	e1cfe73a07ada0eb

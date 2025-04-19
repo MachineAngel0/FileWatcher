@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-release",
+	"dir-cur-src" : "C:/Users/Adams Humbert/Documents/Clion/FileWatcher",
+	"dir-top-bld" : "C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-release",
+	"dir-top-src" : "C:/Users/Adams Humbert/Documents/Clion/FileWatcher",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/Adams Humbert/Documents/Clion/FileWatcher/cmake-build-release/CMakeFiles/FileWatcher.dir"
+}

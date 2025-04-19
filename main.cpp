@@ -21,7 +21,7 @@ int main()
     //FileWatcher* file_watcher = new FileWatcher(R"(C:\Users\Adams Humbert\Documents\Clion\FileWatcherasds)");
 
     // fake application/game loop
-    //TODO: add some sort of input for escaping
+    //TODO: add some sort of input for escaping and easy testing
     while (true)
     {
         file_watcher->update();
