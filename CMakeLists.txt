@@ -7,5 +7,7 @@ add_executable(FileWatcher main.cpp
         FileWatcher.cpp
         FileWatcher.h
         Logger.cpp
-        Logger.h)
+        Logger.h
+        Timer.cpp
+        Timer.h)
 

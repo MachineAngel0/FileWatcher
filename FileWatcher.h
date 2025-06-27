@@ -21,22 +21,9 @@
 // Take Updated Files and parse its .ext, and then have an event or something similar listen so that they can load/unload, or do any operation they want on the file
 
 
-class FileWatcher {
 
-public:
-
-    explicit FileWatcher(const std::filesystem::path& FileDirectory /*,bool recursive*/);
-
-    void update();
-
-    std::vector<std::filesystem::path> get_files_in_directory(const std::filesystem::path& dir_path);
-
-    std::unordered_set<std::filesystem::path> get_files_in_directory_hash();
-
-   std::unordered_set<std::filesystem::path> find_changed_file();
-
-private:
-
+struct FileWatcher
+{
     // file path we want to be operating on
     std::filesystem::path file_path;
     // time stamp for checking against file modification, add, or remove
@@ -44,6 +31,21 @@ private:
     // a list of all our files, to check against any file changes
     std::unordered_set<std::filesystem::path> file_set;
 };
+
+
+
+void file_watcher_init(FileWatcher file_watcher, const std::filesystem::path& FileDirectory);
+
+void file_watcher_update(FileWatcher file_watcher);
+
+std::vector<std::filesystem::path> file_watcher_get_files_in_directory(const std::filesystem::path& dir_path);
+
+std::unordered_set<std::filesystem::path> file_watcher_get_files_in_directory_hash(const FileWatcher& file_watcher);
+
+std::unordered_set<std::filesystem::path> file_watcher_find_changed_file();
+
+
+
 
 
 //TODO: Testing Folder and testing functions

@@ -5,3 +5,5 @@ build CMakeFiles\FileWatcher.dir\FileWatcher.cpp.obj: dyndep
 
 build CMakeFiles\FileWatcher.dir\Logger.cpp.obj: dyndep
 
+build CMakeFiles\FileWatcher.dir\Timer.cpp.obj: dyndep
+
